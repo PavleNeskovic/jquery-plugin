@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="lib.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        colorMe({
+			"id": "heading",
+			"color": "red"
+		});
+    });
+});
+</script>
+</head>
+<body>
+
+<h2 id="heading">This is a heading</h2>
+
+<p id="test">This is a paragraph.</p>
+<p id="test2">This is another paragraph.</p>
+
+<button>Click me</button>
+
+</body>
+</html>
